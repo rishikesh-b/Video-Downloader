@@ -14,9 +14,8 @@ Dive into the world of seamless video downloading with our **YouTube Video Downl
 
 ## 🖼️ Preview
 
-![App Preview](URL_TO_APP_PREVIEW_IMAGE)
+![App Preview](https://github.com/rishikesh-b/Video-Downloader/blob/main/SAMPLE%20IMAGE.png)
 
-> **Note:** Replace `URL_TO_APP_PREVIEW_IMAGE` with the actual URL of your app's screenshot.
 
 ---
 
@@ -31,7 +30,7 @@ Dive into the world of seamless video downloading with our **YouTube Video Downl
 ## 📦 Installation & Setup
 - pip install flask
 - run app.py
-- Go to your local host url
+- Go to http://127.0.0.1:5000/
 
 ### 🧰 Prerequisites
 - Python 3.x
