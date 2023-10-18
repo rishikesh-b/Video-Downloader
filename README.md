@@ -1,4 +1,4 @@
-# 📺 YouTube Video Downloader Web App 🚀
+# 📺 FullStack Video Downloader Web App 🚀
 
 Dive into the world of seamless video downloading with our **YouTube Video Downloader**! Crafted using the trifecta of HTML, CSS, and Flask. Whether you fancy high-res videos, crisp audio, or eye-catching thumbnails, we have you covered! 🌟
 
