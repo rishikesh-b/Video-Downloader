@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(180.7deg, rgba(0, 213, 255, 1) 2.5%, rgba(79, 255, 255, 1) 97.7%);
+    overflow: hidden;
+}
+
+.container {
+    width: 400px;
+}
+
+.glass {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    /* Increase the blur */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* Optional: subtle border */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.1);
+    /* Slight tweak to the shadow */
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    outline: none;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.select-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.select-wrapper:after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+    margin-top: 20px;
+    color: #003366;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: inherit;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.3s;
+    /* Smooth transition for all properties */
+    backdrop-filter: blur(20px);
+    /* Increased blur for a frosty effect */
+    padding: 0.5rem 2rem;
+    border-radius: 50rem;
+    box-shadow: 0 2.5rem 5rem rgba(0, 0, 0, 0.2),
+        inset 0 0 1rem rgba(255, 255, 255, 0.2);
+    /* Inset shadow for an inner glow effect */
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    /* Adjusted line height for better alignment of emoji with text */
+    vertical-align: middle;
+    /* Vertically centers the content */
+    font-size: 1.4rem;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3));
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #001d33;
+    transform: translateY(-3px);
+    /* Slight upward movement for a dynamic effect */
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.3),
+        inset 0 0 2rem rgba(255, 255, 255, 0.3);
+    /* Enhanced inset shadow for hover */
+}
+
+.btn:active {
+    transform: translateY(0);
+    /* Reset position on active state */
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+
+.btn:focus {
+    outline: none;
+}
